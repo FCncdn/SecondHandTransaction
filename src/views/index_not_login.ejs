@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>头大校内二手交易平台</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <script src="/assets/js/modernizr.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container-fluid">
+                    <!-- Logo container-->
+                    <div class="logo">
+                        <a href="/" class="logo">
+                            <span class="logo-large"><i class="mdi mdi-cart-outline"></i> 头大校内二手交易</span>
+                        </a> 
+                    </div>
+                    <!-- End Logo container-->
+
+
+                    <div class="menu-extras topbar-custom">
+
+                        <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                            <li class="menu-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+                            <li class="dropdown notification-list">
+                                <a class="nav-link waves-effect" href="/login" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <span style="font-weight: bold;">账号登录</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- end menu-extras -->
+
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+            <div class="navbar-custom">
+                <div class="container-fluid">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                        <form action="">
+                            <ul class="navigation-menu p-2">
+                                <li style="width: 25%;">
+                                  <input class="form-control" type="text" placeholder="搜索你想要的东西">
+                                </li>
+                                <li>
+                                  <button type="submit" class="btn btn-light waves-effect waves-primary"  style="zoom: 0.95;margin-bottom: 2px;" > <i class="fa fa-search m-r-5"></i> <span>搜索</span> </button>
+                                </li>
+                            </ul>
+                        </form>
+                        <!-- End navigation menu -->
+                    </div> <!-- end #navigation -->
+                </div> <!-- end container -->
+            </div> <!-- end navbar-custom -->
+        </header>
+        <!-- End Navigation Bar-->
+
+
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 mt-2">
+                        <div class="card-box ribbon-box">
+                            <div class="ribbon-two ribbon-two-primary"><span>大家都在看</span></div>
+                            <br>
+                            <!-- 轮播图 -->
+                            <div class="carousel slide" data-ride="carousel">
+ 
+                                <!-- 指示符 -->
+                                <ul class="carousel-indicators">
+                                  <li data-target=".carousel" data-slide-to="0" class="active"></li>
+                                  <li data-target=".carousel" data-slide-to="1"></li>
+                                  <li data-target=".carousel" data-slide-to="2"></li>
+                                </ul>
+                               
+                                <center>
+                                    <!-- 轮播图片 -->
+                                  <div class="carousel-inner">
+                                      <div class="carousel-item pointer active">
+                                            <a href="/sg/goods_1"><img src="/images/goods_1.jpg"></a>
+                                      </div>
+                                      <div class="carousel-item pointer ">
+                                            <a href="/sg/goods_2"><img src="/images/goods_2.jpg"></a>
+                                      </div>
+                                      <div class="carousel-item pointer ">
+                                            <a href="/sg/goods_3"><img src="/images/goods_3.jpg"></a>
+                                      </div>
+                                  </div>
+                                </center>
+                               
+                                <!-- 左右切换按钮 -->
+                                <a class="carousel-control-prev" href=".carousel" data-slide="prev" >
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href=".carousel" data-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-2">
+                      <div class="card-box ribbon-box" style="min-height: 150px;">
+                          <div class="ribbon-two ribbon-two-primary"><span>我的信息</span></div>
+                          <br>
+                          <div class="user-info container-fluid">
+                                <center style="line-height: 150px;">
+                                    你好，请先<a href="/login">登录</a>噢~！
+                                </center>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card-box row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title font-weight-bold">
+                                    看看大家的闲置物品
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                    <a href="/sg/goods_1"><img src="/images/goods_1.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                        <a href="/sg/goods_2"><img src="/images/goods_2.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div class="content" style="overflow: hidden;" >
+                                        <a href="/sg/goods_3"><img src="/images/goods_3.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>                            
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                        <a href="/sg/goods_4"><img src="/images/goods_4.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                    <a href="/sg/goods_5"><img src="/images/goods_5.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                        <a href="/sg/goods_6"><img src="/images/goods_6.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                        <div class="goods-item col-2 col-md-2 col-sm-3" style="display: flex; flex-direction: column;">
+                            <div class="picframe">
+                                <div  class="content" style="overflow: hidden;" >
+                                        <a href="/sg/goods_7"><img src="/images/goods_7.jpg" alt="" class="goods-cp img-thumbnail border-0"></a>
+                                </div>
+                            </div>
+                            <span class="text-center">货物名称</span>
+                            <span class="text-pink font-15 text-right">￥888</span>
+                            <div class="seller-info float-right">
+                                <img src="/images/lzn.jpg" alt="user" class="rounded-circle" style="width: 20px;height: 20px;">
+                                <span class="seller-nickname text-muted ml-1">卖家昵称 <i class="mdi mdi-message-processing"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div> <!-- end container -->
+        </div>
+        <!-- end wrapper -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        这里是页脚
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <div style="z-index: 9999; position: fixed ! important; left: 0px; top: 300px;background: rgb(68, 132, 200);border-radius:0 7px 7px 0;width: 20px;" class="text-center">
+            <table style="position: absolute; width:260px; right: 0px; top: 300px;">
+                <a href="#" style="color: white;">回到顶部</a>
+            </table>
+        </div>
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/popper.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/waves.js"></script>
+        <script src="/assets/js/jquery.slimscroll.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/jquery.core.js"></script>
+        <script src="/assets/js/jquery.app.js"></script>
+
+    </body>
+</html>

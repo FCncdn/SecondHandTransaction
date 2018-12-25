@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>用户登录</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <script src="/assets/js/modernizr.min.js"></script>
+        <!-- Sweet Alert css -->
+        <link href="/plugins/sweet-alert/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container-fluid">
+                    <!-- Logo container-->
+                    <div class="logo">
+                        <a href="/" class="logo">
+                            <span class="logo-large"><i class="mdi mdi-cart-outline"></i> 头大校内二手交易</span>
+                        </a> 
+                    </div>
+                    <!-- End Logo container-->
+
+
+                    <div class="menu-extras topbar-custom">
+
+                        <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                            <li class="menu-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle nav-link">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="false" aria-expanded="false">
+                                    <i class="fi-speech-bubble noti-icon"></i>
+                                    <span class="badge badge-danger badge-pill noti-icon-badge">6</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                                    <!-- item-->
+                                    <div class="dropdown-item noti-title">
+                                        <h6 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>清除</small></a> </span>消息</h6>
+                                    </div>
+
+                                    <div class="slimscroll" style="max-height: 230px;">
+                                        <!-- item-->
+                                        <a href="/users/message" class="dropdown-item notify-item">
+                                            <div class="notify-icon"><img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <p class="notify-details">Cristina Pride</p>
+                                            <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="/users/message" class="dropdown-item notify-item">
+                                            <div class="notify-icon"><img src="assets/images/users/avatar-3.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <p class="notify-details">Sam Garret</p>
+                                            <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="/users/message" class="dropdown-item notify-item">
+                                            <div class="notify-icon"><img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <p class="notify-details">Karen Robinson</p>
+                                            <p class="text-muted font-13 mb-0 user-msg">Wow that's great</p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="/users/message" class="dropdown-item notify-item">
+                                            <div class="notify-icon"><img src="assets/images/users/avatar-5.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <p class="notify-details">Sherry Marshall</p>
+                                            <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="/users/message" class="dropdown-item notify-item">
+                                            <div class="notify-icon"><img src="assets/images/users/avatar-6.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                            <p class="notify-details">Shawn Millard</p>
+                                            <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
+                                        </a>
+                                    </div>
+
+                                    <!-- All-->
+                                    <a href="/users/message" class="dropdown-item text-center text-primary notify-item notify-all">
+                                        所有消息 <i class="fi-arrow-right"></i>
+                                    </a>
+
+                                </div>
+                            </li>
+
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle waves-effect nav-user" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    <img src="/images/lzn.jpg" alt="user" class="rounded-circle"> <span class="ml-1 pro-user-name">廖振肥 <i class="mdi mdi-chevron-down"></i> </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                    <!-- item-->
+                                    <div class="dropdown-item noti-title">
+                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                    </div>
+
+                                    <!-- item-->
+                                    <a href="/users/profile" class="dropdown-item notify-item">
+                                        <i class="fi-head"></i> <span>我的主页</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="/users/for_sale" class="dropdown-item notify-item">
+                                        <i class="fi-file-subtract"></i> <span>我发布的</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="/users/what_I_sell" class="dropdown-item notify-item">
+                                        <i class="fi-outbox"></i> <span>我卖出的</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="/users/what_I_bought" class="dropdown-item notify-item">
+                                        <i class="fi-inbox"></i> <span>我买到的</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fi-power"></i> <span>注销</span>
+                                    </a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end menu-extras -->
+
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+            <div class="navbar-custom">
+                <div class="container-fluid">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                        <form action="">
+                            <ul class="navigation-menu p-2">
+                                <li style="width: 25%;">
+                                  <input class="form-control" type="text" placeholder="搜索你想要的东西">
+                                </li>
+                                <li>
+                                  <button type="submit" class="btn btn-light waves-effect waves-primary"  style="zoom: 0.95;margin-bottom: 2px;" > <i class="fa fa-search m-r-5"></i> <span>搜索</span> </button>
+                                </li>
+                            </ul>
+                        </form>
+                        <!-- End navigation menu -->
+                    </div> <!-- end #navigation -->
+                </div> <!-- end container -->
+            </div> <!-- end navbar-custom -->
+        </header>
+        <!-- End Navigation Bar-->
+
+
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <center>
+                            <div class="card-box col-5" id="login-input-frame" >
+                                <form class="form-horizontal" role="form" id="loginInfoForm" style="width: 100%;">
+                                    <center>
+                                        <h3 style="margin-bottom: 4%;">用户登录</h3>
+                                        <div id="input-group">
+                                            <div class="form-group row" style="width: 70%;">
+                                                <center style="width: 100%;">
+                                                    <div class="loginInfoDiv">
+                                                        <div class="offset-1 col-10" style="padding: 0;">
+                                                            <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名" onkeypress="return enter(event)">
+                                                        </div>
+                                                    </div>
+                                                </center>
+                                                <center style="width: 100%;">
+                                                    <div class="loginInfoDiv">
+                                                        <div class="offset-1 col-10" style="padding: 0;">
+                                                            <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码" onkeypress="return enter(event)">
+                                                        </div>
+                                                    </div>
+                                                </center>
+                                                <center style="width: 100%;">
+                                                    <div class="loginInfoDiv">
+                                                        <!-- <a class="nav-link waves-effect" href="#" id="register">没有账号，点击注册</a> -->
+                                                        <div class="offset-1 col-10" style="display: flex;justify-content: flex-end;padding: 0;">
+                                                            <a class="nav-link waves-effect" href="#" id="forgotpw" style="padding: 0;">忘记密码？</a>
+                                                        </div>
+                                                    </div>
+                                                </center>
+                                                <center style="width: 100%;">
+                                                    <div class="loginInfoDiv" style="display: flex;flex-direction: column;">
+                                                        <div class="input col-10" style="display: flex;flex-direction: row;justify-content: space-between;padding: 0;">
+                                                            <input class="form-control col-4" type="text" id="captcha" name="captcha" style="margin: 0;" placeholder="验证码" onkeypress="return enter(event)"/>
+                                                            <div id="captchaPic" onclick="createCode()">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10" style="display: flex;justify-content: flex-end;">
+                                                            <a href="#" id="changeCaptcha" onclick="createCode()">看不清？点击换图</a>
+                                                        </div>
+                                                    </div>
+                                                </center>
+                                                <center>
+                                                    <div class="loginInfoDiv btnGroup">
+                                                        <div class="button-list">
+                                                            <button type="button" value="登陆" class="btn btn-info waves-light waves-effect" style="background-color: rgb(68, 132, 200);border: 0;"
+                                                                onclick="signin()">登陆</button>
+                                                            <button type="button" value="注册账号" class="btn btn-info waves-light waves-effect" style="background-color: rgb(68, 132, 200);border: 0;"
+                                                                onclick="window.location.href = location.origin + '/register';">注册账号</button>
+                                                        </div>
+                                                    </div>
+                                                </center>
+                                            </div>
+                                        </div>
+                                    </center>
+                                </form>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+        </div>
+        <!-- end wrapper -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        这里是页脚
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/popper.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/waves.js"></script>
+        <script src="/assets/js/jquery.slimscroll.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/jquery.core.js"></script>
+        <script src="/assets/js/jquery.app.js"></script>
+        <!-- getVerificationCode -->
+        <script src="/javascripts/verificationCode.js"></script>
+        <!-- Sweet Alert Js  -->
+        <script src="/plugins/sweet-alert/sweetalert2.min.js"></script>
+        <script src="/assets/pages/jquery.sweet-alert.init.js"></script>
+        <script src="/assets/js/modernizr.min.js"></script>
+        <script>
+            $(document).ready(() => {
+                createCode();
+            })
+            window.onbeforeunload = function () {
+                createCode();
+            }
+        </script>
+    </body>
+</html>
